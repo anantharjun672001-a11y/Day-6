@@ -73,11 +73,17 @@ steps:-
 4. print new array*/
 
 
-const arr = [12,13,14,15]
+/* const arr = [12,13,14,15]
 const result = [];
 for(let i=0;i<arr.length;i++){
     if(arr[i]%2===0){
            result.push(arr[i]);
     }
 }
+console.log(result); */
+
+//Example with filter: print the even numbers in an array
+
+const arr = [12,13,14,15]
+const result = arr.filter((ele)=>ele%2===0)
 console.log(result);
