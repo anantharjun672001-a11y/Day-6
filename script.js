@@ -84,6 +84,39 @@ console.log(result); */
 
 //Example with filter: print the even numbers in an array
 
-const arr = [12,13,14,15]
+/* const arr = [12,13,14,15]
 const result = arr.filter((ele)=>ele%2===0)
+console.log(result); */
+
+//Reduce
+//syntax :- 
+
+/*arrayname.reduce((accumulator,currentValue)=>{
+    
+    block of code
+    
+    },acc)*/
+
+
+//Example without reduce : sum of an array
+
+/*const arr = [1,2,3,4,5];  //15
+let sum =0;
+for(let i=0;i<arr.length;i++){
+    sum = sum+arr[i]
+}
+console.log(sum);*/
+
+
+
+ //Example with reduce : sum of an array
+
+/*const arr = [2,2,3,4,5]
+const result = arr.reduce((sum,i)=>{
+     return sum+i
+
+},0)
 console.log(result);
+
+*/
+
