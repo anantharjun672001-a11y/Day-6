@@ -60,3 +60,24 @@ const result5 = arr5.map((ele)=>ele*2)
 console.log(result5);
  */
 
+//Filter :
+
+//syntax :-  arrayname.filter(function)
+
+/*Example without filter : print the even numbers in an array
+
+steps:- 
+1. for loop
+2. if condition for even number
+3. create a new array and push to it
+4. print new array*/
+
+
+const arr = [12,13,14,15]
+const result = [];
+for(let i=0;i<arr.length;i++){
+    if(arr[i]%2===0){
+           result.push(arr[i]);
+    }
+}
+console.log(result);
