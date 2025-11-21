@@ -18,3 +18,14 @@ for (let i = 0; i < arr.length; i++) {
 }
 console.log(result);  */
 
+//example with map  : multiply the given array by 2
+
+//Normal function:- 
+
+const arr1 = [12,13,14,15]
+function double(element){
+    return element*2
+}
+const result1 = arr1.map(double)
+console.log(result1);
+
