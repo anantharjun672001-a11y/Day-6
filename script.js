@@ -22,10 +22,25 @@ console.log(result);  */
 
 //Normal function:- 
 
-const arr1 = [12,13,14,15]
+/* const arr1 = [12,13,14,15]
 function double(element){
     return element*2
 }
 const result1 = arr1.map(double)
-console.log(result1);
+console.log(result1); */
 
+//Normal function method 2:- 
+
+const arr2 = [12,13,14,15]
+const result2 = arr2.map(function double1(element){
+    return element*2
+})
+console.log(result2);
+
+//Anonymous function method 3:-
+
+const arr = [12,13,14,15]
+const result = arr.map(function(ele){
+      return ele*2
+})
+console.log(result);
