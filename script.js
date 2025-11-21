@@ -44,3 +44,17 @@ const result = arr.map(function(ele){
       return ele*2
 })
 console.log(result);
+
+//Arrow function method 4:-
+
+const arr4 = [12,13,14,15]
+const result4 = arr4.map((item)=>{
+      return item*2
+})
+console.log(result4);
+
+//Arrow function method 5:-
+
+const arr5 = [12,13,14,15]
+const result5 = arr5.map((ele)=>ele*2)
+console.log(result5);
